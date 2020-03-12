@@ -81,28 +81,6 @@ td, th {
   flex: 33.33%;
 }
 
-/* @media(min-width : 768px){
-  .place {
-    width : 33%;
-    float : left;
-  }
-
-  .header h1 {
-    float : left;
-  }
-
-  .container{
-    width : 85%;
-  }
-
-  .img {
-    float : left;
-    margin : 2em;
-  }
-
-} */
-
-
 @media only screen and (max-width: 1100px) {
     .places-parent {
       display: grid;
