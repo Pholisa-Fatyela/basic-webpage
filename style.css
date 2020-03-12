@@ -1,0 +1,135 @@
+/* Css for the whole page */
+* {
+    background-color: orange;
+}
+
+.container{
+    width : 100%;
+    margin : auto;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+
+/* CSS for the Body */
+
+body{
+  font-family : arial;
+}
+
+/* CSS got Header Container */
+
+.header {
+    display: flex;
+}
+.header-text {
+    margin: auto;
+}
+.header-img{
+    margin: auto;
+} 
+
+/* CSS for the City container */
+.city-parent {
+    display: inline-flex;
+}
+
+.city-img {
+    margin: auto;
+}
+
+.city-text {
+    margin: auto;
+    width: 65%;
+}
+
+/* CSS for Languages Container */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* CSS for Places Container */
+.places-parent {
+    /* display: flex; */
+    /* padding: 5em; */
+}
+
+.places-child {
+    float: left;
+    width: 30%;
+    margin: 1em;
+}
+
+
+.place-img{
+  /* padding: 0.5em; */
+  float: right;
+}
+
+.place-text{
+  /* display: flex; */
+  flex: 33.33%;
+}
+
+/* @media(min-width : 768px){
+  .place {
+    width : 33%;
+    float : left;
+  }
+
+  .header h1 {
+    float : left;
+  }
+
+  .container{
+    width : 85%;
+  }
+
+  .img {
+    float : left;
+    margin : 2em;
+  }
+
+} */
+
+
+@media only screen and (max-width: 1100px) {
+    .places-parent {
+      display: grid;
+    }
+  
+    .places-child{
+      width: 100%;
+      margin: 1em;
+    }
+    /* .move{
+      float: left;
+    } */
+  
+  }
+  
+  @media only screen and (max-width: 365px) {
+    .city {
+      display: grid;
+    }
+  
+    .places-child{
+      display: grid;
+      width: 100%;
+      margin: 1em;
+    }
+  
+    /* .centerImage{
+      margin: auto;
+    } */
+  }
